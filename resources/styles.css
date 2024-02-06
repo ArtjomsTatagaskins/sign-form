@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -7,23 +9,117 @@
 body {
     display: flex;
     flex-direction: row;
+    font-family: 'Roboto', sans-serif;
 }
+
 div.left-side img {
     width: 40vw;
 }
 
 div.right-side {
     justify-content: end;
+    width: 60vw;
 }
 
 div.header {
     height: 35%;
+    background-color: #F2F3F4 ;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 15%;
+    font-size: 25px;
+}
+
+div.header p {
+    width: 80%;
 }
 
 div.main-form {
     height: 30%;
+    padding-left: 50px;
+    padding-top: 20px;
 }
+
+div.main-form p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul {
+    columns: 2;
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+}
+
+label {
+    opacity: 0.4;
+    font-size: 12px;
+}
+
+input {
+    height: 30px;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid #E5E7EB;
+    padding-left: 5px;
+    color: #5F6A6A;
+}
+
+input:hover {
+    height: 30px;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid #CCD1D1;
+    color: #5F6A6A;
+}
+
+input:valid {
+    height: 30px;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid #58D68D;
+    color: #5F6A6A;
+}
+
+input:invalid {
+    height: 30px;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid #EC7063 ;
+    color: #5F6A6A;
+}
+
 
 div.footer {
     height: 35%;
+    background-color: #F2F3F4;
+    padding-left: 50px;
+    padding-top: 40px
+}
+
+div.footer p {
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+div.footer p a {
+    color: #596D48;
+    text-decoration: none;
+}
+
+button {
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #596D48;
+    color: #FFF;
+}
+
+form {
+    padding-top: 20px;
 }
