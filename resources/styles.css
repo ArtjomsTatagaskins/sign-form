@@ -84,13 +84,13 @@ input:valid {
     color: #5F6A6A;
 }
 
-input:invalid {
+/* input:invalid {
     height: 30px;
     width: 60%;
     border-radius: 5px;
     border: 1px solid #EC7063 ;
     color: #5F6A6A;
-}
+} */
 
 
 div.footer {
