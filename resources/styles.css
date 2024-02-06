@@ -3,3 +3,27 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+div.left-side img {
+    width: 40vw;
+}
+
+div.right-side {
+    justify-content: end;
+}
+
+div.header {
+    height: 35%;
+}
+
+div.main-form {
+    height: 30%;
+}
+
+div.footer {
+    height: 35%;
+}
