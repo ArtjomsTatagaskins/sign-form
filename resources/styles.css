@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+    src: url('/resources/Norse-Bold.otf');
+    font-family: NorseBold;
+}
 
 * {
     padding: 0;
@@ -11,10 +15,33 @@ body {
     flex-direction: row;
     font-family: 'Roboto', sans-serif;
 }
+div.left-side {
+    position: relative;
+}
+
+div.left-side div.logo {
+    position: absolute;
+} 
 
 div.left-side img {
     width: 40vw;
 }
+
+div.left-side div.logo p {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    font-family: 'NorseBold';
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 140px;
+    text-align: center;
+}
+
+div.logo img {
+    height: 100px;
+    width: auto;
+} 
 
 div.right-side {
     justify-content: end;
