@@ -14,37 +14,18 @@ body {
     display: flex;
     flex-direction: row;
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
 }
+
 div.left-side {
     position: relative;
 }
-
-div.left-side div.logo {
-    position: absolute;
-} 
 
 div.left-side img {
     width: 40vw;
 }
 
-div.left-side div.logo p {
-    position: absolute;
-    top: 20%;
-    width: 100%;
-    font-family: 'NorseBold';
-    color: #FFF;
-    background-color: rgba(0, 0, 0, 0.3);
-    font-size: 140px;
-    text-align: center;
-}
-
-div.logo img {
-    height: 100px;
-    width: auto;
-} 
-
 div.right-side {
-    justify-content: end;
     width: 60vw;
 }
 
@@ -53,18 +34,45 @@ div.header {
     background-color: #F2F3F4 ;
     font-weight: bold;
     padding-left: 50px;
-    padding-top: 15%;
+    padding-top: 10%;
     font-size: 25px;
+    overflow: auto;
 }
 
 div.header p {
     width: 80%;
 }
 
+div.logo {
+    display: flex;
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    font-size: 120px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    gap: 20px;
+}
+
+div.logo p {
+    display: inline-block;
+    font-family: 'NorseBold';
+    color: #FFF;
+}
+
+div.logo img {
+    display: inline-block;
+    width: auto;
+    height: 90px;
+}
+
 div.main-form {
-    height: 30%;
+    height: 35%;
     padding-left: 50px;
-    padding-top: 20px;
+    padding-top: 30px;
+    overflow: auto;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1) inset;
 }
 
 div.main-form p {
@@ -111,20 +119,13 @@ input:valid {
     color: #5F6A6A;
 }
 
-/* input:invalid {
-    height: 30px;
-    width: 60%;
-    border-radius: 5px;
-    border: 1px solid #EC7063 ;
-    color: #5F6A6A;
-} */
-
 
 div.footer {
-    height: 35%;
+    height: 30%;
     background-color: #F2F3F4;
     padding-left: 50px;
-    padding-top: 40px
+    padding-top: 40px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1) inset;
 }
 
 div.footer p {
@@ -148,5 +149,5 @@ button {
 }
 
 form {
-    padding-top: 20px;
+    padding-top: 30px;
 }

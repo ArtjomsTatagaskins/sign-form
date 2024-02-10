@@ -11,7 +11,7 @@
         <img src="/resources/background.avif" alt="Background image">
         <div class="logo">
             <img src="/resources/odin-lined.png" alt="Odin logo">
-            <!-- <p>Odin</p> -->
+            <p>logo</p>
         </div>
     </div>
     <div class="right-side">
@@ -36,7 +36,7 @@
                     <li>
                         <label for="password">PASSWORD</label>
                         <br>
-                        <input id="password" name="password" type="password" required>
+                        <input id="password" name="password" type="password" pattern="^(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,}$" required>
                     </li>
                     <li>
                         <label for="last-name">LAST NAME</label>
@@ -51,7 +51,7 @@
                     <li>
                         <label for="confirm-password">CONFIRM PASSWORD</label>
                         <br>
-                        <input id="confirm-password" name="confirm-password" type="password" required>
+                        <input id="confirm-password" name="confirm-password" type="password" pattern="^(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,}$" required>
                     </li>
                 <ul>
             </form>
